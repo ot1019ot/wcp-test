@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+header{
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.nav-list {
+	text-align: center;
+	margin: 0 auto;
+	border-top: 1px solid #6c6b6b;
+	border-bottom: 1px solid #6c6b6b;
+}
+
+.nav-list-item {
+	display: inline-block;
+	list-style: none;
+	padding: 15px 0;
+	margin:0 20px;
+}
+
+.main {
+	margin: 50px auto;
+	width: 800px;
+	padding: 50px 0;
+}
+
+.main-box1 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #e6ffe9;
+	float: left;
+}
+
+.main-box2 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #cdffd3;
+	float: left;
+}
+
+.main-box3 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #aeffbd;
+	float: left;
+}
+
+.main-box4 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #93ffab;
+	float: left;
+}
+
+.main-box5 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #f3ffd8;
+	float: left;
+}
+
+.main-box6 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #edffbe;
+	float: left;
+}
+
+.main-box7 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #e9ffa5;
+	float: left;
+}
+
+.main-box8 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #e4ff8d;
+	float: left;
+}
+
+.main-box9 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #d9e5ff;
+	float: left;
+}
+
+.main-box10 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #bad3ff;
+	float: left;
+}
+
+.main-box11 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #a4c6ff;
+	float: left;
+}
+
+.main-box12 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #8eb8ff;
+	float: left;
+}
+
+footer {
+	background-color: #6c6b6b;
+	width: 100%;
+	height: 120px;
+}
+
+.footer-text {
+	line-height: 120px;
+	text-align: center;
+	color: #fff;
+}
