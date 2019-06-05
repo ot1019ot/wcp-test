@@ -64,3 +64,23 @@ main {
 .title {
 	margin-top: 15px 0;
 }
+
+@media screen and (max-width:768px) {
+	main {
+		width: 90%;
+	}
+
+	.step-box {
+		float: none;
+		margin-right: none;
+	}
+
+	.step-box:nth-child(1) {
+		margin-bottom: 20px;
+	}
+
+	.step-box:nth-child(2) {
+		margin-bottom: 20px;
+	}
+
+}
