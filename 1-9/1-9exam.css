@@ -4,11 +4,6 @@
 	box-sizing: border-box;
 }
 
-.clearfix::after {
-	content: "";
-	display: block;
-	clear: both;
-}
 
 main {
 	width: 960px;
@@ -71,16 +66,14 @@ main {
 	}
 
 	.step-box {
+		width: 100%;
+		margin: 0 auto;
 		float: none;
-		margin-right: none;
-	}
-
-	.step-box:nth-child(1) {
 		margin-bottom: 20px;
 	}
 
-	.step-box:nth-child(2) {
-		margin-bottom: 20px;
+	.step-img1, .step-img2, .step-img3 {
+		width: 100%;
 	}
 
 }
